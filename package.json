@@ -1,6 +1,6 @@
 {
   "name": "use-r3f-assets",
-  "homepage": "",
+  "homepage": "mukit1400.github.io/raytracing-webgl",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -21,6 +21,8 @@
     "pretty-quick": "^3.0.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
